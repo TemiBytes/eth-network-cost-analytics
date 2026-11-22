@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+profiles.yml
+*.pem
+*.p8
+rsa_key*
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+*.log
+.user.yml
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
